@@ -1,0 +1,1 @@
+mpic++ -O3 -Wall -I/data/dell5/userdir/zitan/opt/hdf5-1.10.1/include -L/data/dell5/userdir/zitan/opt/hdf5-1.10.1/lib -lhdf5 -lz -std=c++17 read_write_h5.cpp particle.cpp kernel.cpp calculate_variables.cpp predictor_corrector.cpp mesh_n_search.cpp main_loop.cpp -o kh_test
